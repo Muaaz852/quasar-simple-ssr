@@ -1,0 +1,31 @@
+{
+  "name": "quasar-ssr",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "author": "visadbio <zain@visadb.io>",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@quasar/extras": "1.1.1",
+    "axios": "0.18.0",
+    "quasar": "1.0.0-beta.18",
+    "@quasar/babel-preset-app": "1.0.2",
+    "compression": "^1.0.0",
+    "express": "^4.0.0",
+    "lru-cache": "5.1.1",
+    "vue": "2.6.10",
+    "vue-server-renderer": "2.6.10",
+    "vue-router": "3.0.6",
+    "vuex": "3.1.0"
+  },
+  "engines": {
+    "node": ">= 8.9.0",
+    "npm": ">= 5.6.0",
+    "yarn": ">= 1.6.0"
+  },
+  "quasar": {
+    "ssr": true
+  }
+}
