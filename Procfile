@@ -1,1 +1,1 @@
-web: npm install && quasar build -m ssr && cd dist/ssr && npm install && node index.js
+web: cd dist/ssr && npm install && npm run start
